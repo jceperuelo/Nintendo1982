@@ -1,0 +1,464 @@
+.container {
+    background-color: yellow;
+    width: 1250px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.arriba {
+    background-color: orange;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    }
+
+.superior {
+    background-color:brown;
+    width: 405px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 5px;
+    }
+    
+.abrir {
+    background-color: black;
+    width: 40px;
+    height: 10px;
+    border: 6px solid brown;
+    display: flex;
+    padding-top: 15px;
+    align-self: center;
+    }
+
+.parte1 {
+    /*background-color: green;*/
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tornillo2 {
+    background-color: grey;
+    border: 2px double black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    margin-right: 35px;
+}
+
+.tornillo3 {
+    background-color: grey;
+    border: 2px double black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    margin-left: 35px;
+}
+
+.parte2 {
+    /*background-color: greenyellow;*/
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.izquierda {
+    background-color: brown;
+    width: 70px;
+    height: 180px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro1 {
+    background-color:brown;
+    width: 60px;
+    height: 90px;
+    border: 5px solid orange;
+    display: flex;
+}
+
+.cuadro2 {
+    background-color:brown;
+    width: 60px;
+    height: 90px;
+    border: 3px solid black;
+    margin: 2px;
+    display: flex;
+}
+
+.tornillo {
+    background-color: grey;
+    border: 2px double black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.tornillo1 {
+    background-color: grey;
+    border: 2px double black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.derecha {
+    background-color: brown;
+    width: 70px;
+    height: 180px;
+    margin-left: 5px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.borde-pantalla {
+    border: 6px double black;
+    width: 200px;
+    height: 150px;
+    align-self: center;
+    margin-left: center;
+    margin-right: center;
+}
+
+.borde-pantalla1 {
+    border: 6px double black;
+    width: 200px;
+    height: 150px;
+    align-self: center;
+    margin-left: center;
+    margin-right: center;
+    margin-bottom: 15px;
+}
+
+
+.centro {/*background-color: sienna;*/
+    width: 400px;
+    height: 30px;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.uno {
+    background-color:orange;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15%;
+    display: flex;
+}
+
+.subuno {
+    background-color:orange;
+    width: 40px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 15%;
+    margin-left: 50%;
+}
+
+.subdos {
+    background-color:orange;
+    width: 40px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 15%;
+    margin-right: 50%;
+}
+
+.dos {
+    background-color:orange;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15%;
+    /*margin-left: 200px;*/
+    display: flex;
+}
+
+.tres{
+    background-color:orange;
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15%;
+}
+
+.subtres {
+    display: grid;
+    grid-template-columns: repeat(35, 5px);
+    grid-template-rows: 26px;
+    justify-content: center;
+    align-self: center;
+    padding: 0.5px;
+}
+
+.elemento {background-color: white;
+    margin: 0.2px;}
+
+.elemento1 {background-color: black;}
+   
+
+
+.abajo {background-color: orange;
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+.inferior {
+    background-color:brown;
+    width: 405px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 5px;
+    }
+
+.cerrar {
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    display: flex;
+    padding-bottom: 15px;
+    margin: 2px;
+    align-self: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.parte3 {
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 110px;
+    height: 250px;
+    /*margin-right: 5px;
+    padding-top: 40px;
+    padding-bottom: 20px;*/
+   
+}
+
+.barra1 {
+    background-color: brown;
+    width: 70px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.caja {
+    background-color:burlywood;
+    width: 60px;
+    height: 100px;
+    border: 5px double brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.cruz2 {
+    background-color: black;
+    border: 2px solid orange;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    position: absolute;
+    /*margin-right: 1px;*/
+    margin-top: 55px;
+}
+
+.cruz1 {
+    background-color: black;
+    border: 2px solid orange;
+    width: 40px;
+    height: 15px;
+    align-self: center;
+    position:absolute;
+    margin-top: 38px;
+}
+
+.cruz {
+    background-color: black;
+    border: 2px solid orange;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    position:absolute;
+    margin-top: 20px;
+}
+
+.controller {align-self: center;
+    margin: 80px;
+    font-size: 8px;}
+
+/*p {font-size: 0.5px;
+    font-family: Arial;}*/
+
+.parte4 {
+    /*background-color:greenyellow;*/
+    width: 180px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barra2 {
+    border: 3px solid black;
+    width: 200px;
+    height: 1px;
+    margin: 8px;
+    align-self: center;
+}
+
+.parte5 {
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 110px;
+    height: 250px;
+    /*margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;*/
+}
+
+.barra3 {
+    background-color: brown;
+    width: 70px;
+    height: 180px;
+    /*margin-left: 10px;*/
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.caja1 {
+    /*background-color:burlywood;*/
+    width: 69px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.boton1 {background-color: black;
+    border: 4px solid orange;
+    border-radius: 40%;
+    width: 30px;
+    height: 10px;
+    align-self: center;
+    /*margin: 5px;*/}
+
+.texto1 {align-self: center;
+    font-size: 10px;}
+.texto2 {align-self: center;
+    font-size: 10px;}
+.texto3 {align-self: center;
+    font-size: 10px;}
+
+.caja2 {
+    background-color:burlywood;
+    width: 60px;
+    height: 100px;
+    border: 5px double brown;
+    display: flex;
+    flex-direction: column;
+}
+.start {align-self: center;
+    font-size: 10px;}
+.boton {
+background-color: black;
+border: 4px solid orange;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+align-self: center;
+margin: 5px;
+}
+.jump {align-self: center;
+    font-size: 10px;}
+
+.logo {
+    border-radius: 25%;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
+    align-self: center;
+    margin: 10px;
+}
+
+.logo1 {
+    border-radius: 25%;
+    background-color: black;
+    width: 100px;
+    height: 12px;
+    margin-left: 50px;
+    padding-top: 10px;
+    justify-content: center;
+    align-self: center;
+    margin: 10px;
+    border: 4px solid grey;}
+
+.logo2 {
+    border-radius: 10%;
+    background-color:burlywood;
+    border: 2px solid black;
+    width: 50px;
+    height: 40px;
+    margin: 20px;
+    /*margin-left: 50px;
+    margin: 10px;*/
+    justify-content: center;
+    align-self: center;
+    }
+
+.texto-logo1 {color: white;
+    align-self: center;
+    font-size: 10px;
+    margin: 11px;
+    margin-top: 1px;
+}
+.texto-logo {align-self: center;
+    font-size: 12px;}
+.texto-logo2 {color: white;
+    justify-content: center;
+    align-self: center;
+    font-size: 15px;
+    margin: -8px 22px;}
